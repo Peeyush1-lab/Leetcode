@@ -20,11 +20,11 @@ Welcome to my LeetCode problem-solving repository! This repo tracks my progress 
 **Start Date**: January 1, 2026
 **End Date**: February 28, 2026
 **Duration**: 59 Days
-**Goal**: Solve at least 1 problem daily for 59 consecutive days
+**Goal**: Solve at least 1 problem daily for 100 consecutive days
 
-**Progress**: Day 1/59 🚀
+**Progress**: Day 2/100 🚀
 
-📈 **Challenge Tracker**: [View Detailed Progress →](./Challenges/59-Days-Winter-Sprint-2026/)
+📈 **Challenge Tracker**: [View Detailed Progress →](./Challenges/100 Days Leetcode Challenge/)
 
 ---
 
@@ -95,27 +95,6 @@ leetcode/
 
 ---
 
-## 📝 Daily Problem Template
-
-Each day's solution follows this structure:
-
-```markdown
-# Day XXX - Problem Title
-
-**Date**: DD/MM/YYYY
-**Difficulty**: Easy/Medium/Hard
-**Link**: [Problem URL]
-**Topics**: Tags
-
-## Problem Description
-Brief description
-
-## Approach
-Solution strategy
-
-## Complexity
-- Time: O(?)
-- Space: O(?)
 
 ## Key Learnings
 Important takeaways

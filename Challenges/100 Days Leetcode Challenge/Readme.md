@@ -7,10 +7,10 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 ## 📅 Timeline
 
 - **Start Date**: January 1, 2026 (Wednesday)
-- **End Date**: February 28, 2026 (Saturday)
-- **Total Duration**: 59 Days
-- **Current Day**: Day 1/59
-- **Current Streak**: 🔥 1 days
+- **End Date**: April 12, 2026 (Saturday)
+- **Total Duration**: 100 Days
+- **Current Day**: Day 2/100
+- **Current Streak**: 🔥 2 days
 
 ## 🏆 Challenge Goals
 
@@ -23,18 +23,17 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 ## 📊 Progress Overview
 
 ### Overall Statistics
-- **Days Completed**: 1/59
-- **Problems Solved**: 0
-- **Success Rate**: 1%
-- **Average Time per Problem**: - minutes
-- **Longest Streak**: 1 days
+- **Days Completed**: 2/100
+- **Problems Solved**: 2
+- **Average Time per Problem**: - 45 minutes
+- **Longest Streak**: 2 days
 
 
 ## 📅 Weekly Progress Tracker
 
 | Week | Dates | Days | Problems | Topics Covered | Notes |
 |------|-------|------|----------|----------------|-------|
-| 1 | Jan 1-7 | 1-7 | 0/7 | - | Challenge Start! |
+| 1 | Jan 1-7 | 1-7 | 3/7 | 2 | Challenge Start! |
 | 2 | Jan 8-14 | 8-14 | 0/7 | - | - |
 | 3 | Jan 15-21 | 15-21 | 0/7 | - | - |
 | 4 | Jan 22-28 | 22-28 | 0/7 | - | - |
@@ -49,16 +48,18 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 ### Week 1: January 1-7, 2026
 
 #### Day 001 - January 1, 2026 (Wednesday)
-- **Problem**:
-- **Difficulty**:
-- **Topics**:
-- **Status**: ⏳ Pending
-- **Time Taken**:
-- **Key Takeaway**:
+- **Problem**: 1652 Defuse the Bomb
+- **Difficulty**: Easy
+- **Topics**: Array, Sliding Window
+- **Status**: ✅ Done
+- **Time Taken**: 20 min
 
 #### Day 002 - January 2, 2026 (Thursday)
-- **Status**: ⏳ Pending
+- **Problem**:
+    961 N-Repeated Element in Size 2N Array,
+    66 Plus One
 
+- **Status**:✅ Done
 #### Day 003 - January 3, 2026 (Friday)
 - **Status**: ⏳ Pending
 
@@ -81,7 +82,7 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 Track which topics you've practiced:
 
 ### Fundamentals (Target: 30 problems)
-- [ ] Arrays (0/12)
+- [ ] Arrays (3/12)
 - [ ] Strings (0/8)
 - [ ] Hash Tables (0/6)
 - [ ] Sorting (0/4)
@@ -138,7 +139,7 @@ Track which topics you've practiced:
 
 ## 🌟 Challenge Milestones
 
-- [ ] 🎉 Day 1 - First problem (Jan 1)
+- [✔️] 🎉 Day 1 - First problem (Jan 1)
 - [ ] 🔥 Day 7 - One week streak
 - [ ] 💪 Day 14 - Two weeks strong
 - [ ] 🚀 Day 21 - Three weeks in
@@ -146,21 +147,10 @@ Track which topics you've practiced:
 - [ ] 🎯 Day 45 - Three-quarters done
 - [ ] 🏆 Day 59 - CHALLENGE COMPLETE! (Feb 28)
 
-## 📈 Patterns & Common Mistakes
 
-### Patterns Learned
-1.
-
-### Common Mistakes to Avoid
-1.
-
-### Time Management Tips
-1.
 
 ## 🔥 Motivation & Accountability
 
-### Why I Started This Challenge
-[Your reason for taking this challenge]
 
 ### Daily Commitment
 "I commit to solving at least one problem every day, no matter how busy I am. Consistency over intensity."
