@@ -9,8 +9,8 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 - **Start Date**: January 1, 2026 (Wednesday)
 - **End Date**: April 12, 2026 (Saturday)
 - **Total Duration**: 100 Days
-- **Current Day**: Day 2/100
-- **Current Streak**: 🔥 2 days
+- **Current Day**: Day 3/100
+- **Current Streak**: 🔥 3 days
 
 ## 🏆 Challenge Goals
 
@@ -23,17 +23,17 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 ## 📊 Progress Overview
 
 ### Overall Statistics
-- **Days Completed**: 2/100
-- **Problems Solved**: 2
+- **Days Completed**: 3/100
+- **Problems Solved**: 5
 - **Average Time per Problem**: - 45 minutes
-- **Longest Streak**: 2 days
+- **Longest Streak**: 3 days
 
 
 ## 📅 Weekly Progress Tracker
 
 | Week | Dates | Days | Problems | Topics Covered | Notes |
 |------|-------|------|----------|----------------|-------|
-| 1 | Jan 1-7 | 1-7 | 3/7 | 2 | Challenge Start! |
+| 1 | Jan 1-7 | 1-7 | 5/7 | 3 | Challenge Start! |
 | 2 | Jan 8-14 | 8-14 | 0/7 | - | - |
 | 3 | Jan 15-21 | 15-21 | 0/7 | - | - |
 | 4 | Jan 22-28 | 22-28 | 0/7 | - | - |
@@ -55,13 +55,14 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 - **Time Taken**: 20 min
 
 #### Day 002 - January 2, 2026 (Thursday)
-- **Problem**:
-    961 N-Repeated Element in Size 2N Array,
-    66 Plus One
-
+- **Problem**: 961 N-Repeated Element in Size 2N Array, 66 Plus One
 - **Status**:✅ Done
+
 #### Day 003 - January 3, 2026 (Friday)
-- **Status**: ⏳ Pending
+- **Difficulty**: Easy, Medium
+- **Topics**: Array, Prefix Sum, Enumeration
+- **Status**: ✅ Done
+- **Problem**: 1480 - Running Sum of 1d, 204 - Count Primes
 
 #### Day 004 - January 4, 2026 (Saturday)
 - **Status**: ⏳ Pending
