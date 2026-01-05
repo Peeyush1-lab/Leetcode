@@ -2,15 +2,15 @@
 
 ## 🎯 Challenge Overview
 
-A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is to solve at least one LeetCode problem every single day, building consistency and strengthening problem-solving skills.
+A focused 100-day coding sprint from January 1 to April 12, 2026. The goal is to solve at least one LeetCode problem every single day, building consistency and strengthening problem-solving skills.
 
 ## 📅 Timeline
 
 - **Start Date**: January 1, 2026 (Wednesday)
 - **End Date**: April 12, 2026 (Saturday)
 - **Total Duration**: 100 Days
-- **Current Day**: Day 3/100
-- **Current Streak**: 🔥 3 days
+- **Current Day**: Day 5/100
+- **Current Streak**: 🔥 5 days
 
 ## 🏆 Challenge Goals
 
@@ -23,17 +23,17 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 ## 📊 Progress Overview
 
 ### Overall Statistics
-- **Days Completed**: 3/100
+- **Days Completed**: 5/100
 - **Problems Solved**: 5
 - **Average Time per Problem**: - 45 minutes
-- **Longest Streak**: 3 days
+- **Longest Streak**: 5 days
 
 
 ## 📅 Weekly Progress Tracker
 
 | Week | Dates | Days | Problems | Topics Covered | Notes |
 |------|-------|------|----------|----------------|-------|
-| 1 | Jan 1-7 | 1-7 | 5/7 | 3 | Challenge Start! |
+| 1 | Jan 1-7 | 1-7 | 9/7 | 5 | Challenge Start! |
 | 2 | Jan 8-14 | 8-14 | 0/7 | - | - |
 | 3 | Jan 15-21 | 15-21 | 0/7 | - | - |
 | 4 | Jan 22-28 | 22-28 | 0/7 | - | - |
@@ -83,7 +83,7 @@ A focused 100-day coding sprint from January 1 to February 28, 2026. The goal is
 Track which topics you've practiced:
 
 ### Fundamentals (Target: 30 problems)
-- [ ] Arrays (3/12)
+- [ ] Arrays (9/12)
 - [ ] Strings (0/8)
 - [ ] Hash Tables (0/6)
 - [ ] Sorting (0/4)
@@ -140,13 +140,13 @@ Track which topics you've practiced:
 
 ## 🌟 Challenge Milestones
 
-- [✔️] 🎉 Day 1 - First problem (Jan 1)
+- [x] 🎉 Day 1 - First problem (Jan 1)
 - [ ] 🔥 Day 7 - One week streak
 - [ ] 💪 Day 14 - Two weeks strong
 - [ ] 🚀 Day 21 - Three weeks in
 - [ ] ⭐ Day 30 - One month complete! (Jan 30)
-- [ ] 🎯 Day 45 - Three-quarters done
-- [ ] 🏆 Day 59 - CHALLENGE COMPLETE! (Feb 28)
+- [ ] 🎯 Day 70 - Three-quarters done
+- [ ] 🏆 Day 100 - CHALLENGE COMPLETE! (Apr 12)
 
 
 
@@ -157,15 +157,15 @@ Track which topics you've practiced:
 "I commit to solving at least one problem every day, no matter how busy I am. Consistency over intensity."
 
 ### Accountability Partners
-- [ ] Share progress on social media
-- [ ] Update GitHub daily
+- [x] Share progress on social media
+- [x] Update GitHub daily
 - [ ] Join LeetCode study group
 
 ## 📊 End-of-Challenge Stats
 
-_To be filled on February 28, 2026_
+_To be filled on April 12, 2026_
 
-- **Total Days**: 59/59
+- **Total Days**: 100/100
 - **Total Problems**:
 - **Completion Rate**:
 - **Favorite Problem**:
