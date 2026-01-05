@@ -95,20 +95,13 @@ leetcode/
 
 ---
 
-
-## Key Learnings
-Important takeaways
-```
-
----
-
 ## 🏆 Milestones
 
 - [x] Day 1 - Journey Begins! (Jan 1, 2026)
-- [ ] Day 10 - First 10 days streak
 - [ ] Day 30 - One month complete (Jan 30, 2026)
-- [ ] Day 45 - Three-quarters done
-- [ ] Day 59 - Challenge Complete! (Feb 28, 2026) 🎉
+- [ ] Day 60 - Second month complete (Feb 28, 2026)
+- [ ] Day 90 - Three-quarters done
+- [ ] Day 100 - Challenge Complete! ( 28, 2026) 🎉
 
 ---
 
@@ -131,8 +124,8 @@ Feel free to reach out for discussions on problem-solving approaches or collabor
 
 ## ⭐ Repository Stats
 
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/leetcode?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/leetcode?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/Peeyush1-lab/leetcode?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/Peeyush1-lab/leetcode?style=social)
 
 ---
 
