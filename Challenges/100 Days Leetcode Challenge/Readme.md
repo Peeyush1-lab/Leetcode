@@ -9,8 +9,8 @@ A focused 100-day coding sprint from January 1 to April 12, 2026. The goal is to
 - **Start Date**: January 1, 2026 (Wednesday)
 - **End Date**: April 12, 2026 (Saturday)
 - **Total Duration**: 100 Days
-- **Current Day**: Day 5/100
-- **Current Streak**: 🔥 5 days
+- **Current Day**: Day 6/100
+- **Current Streak**: 🔥 6 days
 
 ## 🏆 Challenge Goals
 
@@ -23,17 +23,17 @@ A focused 100-day coding sprint from January 1 to April 12, 2026. The goal is to
 ## 📊 Progress Overview
 
 ### Overall Statistics
-- **Days Completed**: 5/100
-- **Problems Solved**: 5
+- **Days Completed**: 6/100
+- **Problems Solved**: 10
 - **Average Time per Problem**: - 45 minutes
-- **Longest Streak**: 5 days
+- **Longest Streak**: 6 days
 
 
 ## 📅 Weekly Progress Tracker
 
 | Week | Dates | Days | Problems | Topics Covered | Notes |
 |------|-------|------|----------|----------------|-------|
-| 1 | Jan 1-7 | 1-7 | 9/7 | 5 | Challenge Start! |
+| 1 | Jan 1-7 | 1-7 | 10/7 | Arrays,Two Pointer, Greedy | Challenge Start! |
 | 2 | Jan 8-14 | 8-14 | 0/7 | - | - |
 | 3 | Jan 15-21 | 15-21 | 0/7 | - | - |
 | 4 | Jan 22-28 | 22-28 | 0/7 | - | - |
@@ -83,13 +83,13 @@ A focused 100-day coding sprint from January 1 to April 12, 2026. The goal is to
 Track which topics you've practiced:
 
 ### Fundamentals (Target: 30 problems)
-- [ ] Arrays (9/12)
+- [x] Arrays (10/12)
 - [ ] Strings (0/8)
 - [ ] Hash Tables (0/6)
 - [ ] Sorting (0/4)
 
 ### Intermediate (Target: 20 problems)
-- [ ] Two Pointers (0/4)
+- [x] Two Pointers (4/4)
 - [ ] Sliding Window (0/3)
 - [ ] Binary Search (0/4)
 - [ ] Linked Lists (0/4)
