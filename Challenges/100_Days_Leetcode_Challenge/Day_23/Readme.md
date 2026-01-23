@@ -54,4 +54,4 @@ Day23/
 
 ---
 
-**Previous:** [Day 22](../Day22/) | **Next:** [Day 24](../Day24/)
+**Previous:** [Day 22](../Day_22/) | **Next:** [Day 24](../Day_24/)
