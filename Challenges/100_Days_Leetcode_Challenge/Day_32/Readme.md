@@ -46,7 +46,6 @@ One-pass approach: Single pass, more complex (two pointers with gap)
 Both: O(n) time, O(1) space
 ```
 
-
 ## 🎓 Pattern Recognition
 
 **This problem teaches:**

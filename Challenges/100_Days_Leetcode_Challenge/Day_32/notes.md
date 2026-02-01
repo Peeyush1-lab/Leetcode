@@ -275,7 +275,6 @@ Result: [1] → [2] → [3] → [5] ✓
 - Fast/slow pointer technique
 - Or explore binary trees
 
-
 ### 💭 Key Takeaway
 
 **Both approaches are valid.** Your two-pass solution is correct and clear. The one-pass is more elegant but requires the gap technique. In interviews, explaining trade-offs between approaches demonstrates deep understanding. The clearest solution is often the best solution!

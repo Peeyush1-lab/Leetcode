@@ -31,5 +31,4 @@ class Solution {
         curr.next = curr.next.next;
         return head;
     }
-
 }
