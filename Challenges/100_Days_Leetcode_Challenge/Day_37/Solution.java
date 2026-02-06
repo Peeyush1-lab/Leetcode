@@ -7,23 +7,44 @@ class ListNode {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
-public class Solution {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode dummy = new ListNode(0);
-        ListNode tail = dummy;
-
-        while (list1 != null && list2 != null) {
-            if (list1.val <= list2.val) {
-                tail.next = list1;
-                list1 = list1.next;
-            } else {
-                tail.next = list2;
-                list2 = list2.next;
-            }
-            tail = tail.next;
+class Solution {
+    private static ListNode reverseLL(ListNode head)
+    {
+        ListNode prev = null;
+        ListNode curr = head;
+        ListNode next;
+        while(curr != null)
+        {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
-
-        tail.next = (list1 != null) ? list1 : list2;
-        return dummy.next;
+        return prev;
+    }
+    public boolean isPalindrome(ListNode head) {
+        if(head == null || head.next == null)
+        {
+            return true;
+        }
+        ListNode slow = head;
+        ListNode fast = head;
+        while(fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode lefthead = reverseLL(slow);
+        ListNode temp = head;
+        while(lefthead != null)
+        {
+            if(lefthead.val != temp.val)
+            {
+                return false;
+            }
+            lefthead = lefthead.next;
+            temp = temp.next;
+        }
+        return true;
     }
 }
