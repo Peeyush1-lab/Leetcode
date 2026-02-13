@@ -224,7 +224,7 @@ Store: In reused nodes
 - Learn segment algorithms
 - Explore marker-based patterns
 
-|**Previous:** [Day 42](../Day42/) | **Next:** [Day 44](../Day44/)|
+|**Previous:** [Day 42](../Day_43/) | **Next:** [Day 44](../Day_45/)|
 |---|---|
 
 |**Date:** February 12, 2026|
