@@ -54,7 +54,7 @@ This solution uses an iterative approach with two main steps:
 **Time Complexity:** O(n) - We traverse the list once
 **Space Complexity:** O(1) - Only use a constant amount of extra space
 
-|**Previous:** [Day 42](../Day_43/) | **Next:** [Day 44](../Day_45/)|
+|**Previous:** [Day 43](../Day_43/) | **Next:** [Day 45](../Day_45/)|
 |---|---|
 
 |**Date:** February 13, 2026|

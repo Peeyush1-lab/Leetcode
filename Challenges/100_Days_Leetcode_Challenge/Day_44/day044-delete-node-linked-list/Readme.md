@@ -61,7 +61,7 @@ This effectively "deletes" the current node by replacing it with the next node's
 **Time Complexity:** O(1)
 **Space Complexity:** O(1)
 
-|**Previous:** [Day 42](../Day_43/) | **Next:** [Day 44](../Day_45/)|
+|**Previous:** [Day 43](../Day_43/) | **Next:** [Day 45](../Day_45/)|
 |---|---|
 
 |**Date:** February 13, 2026|

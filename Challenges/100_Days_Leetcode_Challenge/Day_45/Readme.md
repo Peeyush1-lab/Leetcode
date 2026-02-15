@@ -105,7 +105,7 @@ They'll meet at:
 **Time Complexity:** O(m + n) where m and n are the lengths of the two lists
 **Space Complexity:** O(1) - only using two pointers
 
-|**Previous:** [Day 42](../Day_44/) | **Next:** [Day 44](../Day_46/)|
+|**Previous:** [Day 44](../Day_44/) | **Next:** [Day 46](../Day_46/)|
 |---|---|
 
 |**Date:** February 14, 2026|
