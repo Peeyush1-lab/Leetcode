@@ -70,3 +70,9 @@ Using a stack to track indices/values in reverse:
 **Space Complexity:** O(n) - stack and result array
 
 Your brute force solution is correct and straightforward! For large inputs, the stack-based approach would be more efficient.
+
+|**Previous:** [Day 49](../Day_49/) | **Next:** [Day 51](../Day_51/)|
+|---|---|
+
+|**Date:** February 19, 2026|
+|---|
