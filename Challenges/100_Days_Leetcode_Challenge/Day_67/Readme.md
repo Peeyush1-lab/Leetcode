@@ -1,21 +1,24 @@
-# 1700. Number of Students Unable to Eat Lunch
+# 232. Implement Queue using Stacks
 
 **Difficulty:** Easy
 **Day:** 67
-**Topics:** Array, Stack, Queue, Simulation
+**Topics:** Stack, Design, Queue
 
 ## Problem Description
 
-The school cafeteria offers circular and square sandwiches at lunch break, referred to by numbers `0` and `1` respectively. All students stand in a queue. Each student either prefers square or circular sandwiches.
+Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (`push`, `peek`, `pop`, and `empty`).
 
-The number of sandwiches in the cafeteria is equal to the number of students. The sandwiches are placed in a **stack**. At each step:
+Implement the `MyQueue` class:
 
-- If the student at the front of the queue **prefers** the sandwich on the top of the stack, they will **take it** and leave the queue.
-- Otherwise, they will **leave it** and go to the queue's end.
+- `void push(int x)` Pushes element x to the back of the queue.
+- `int pop()` Removes the element from the front of the queue and returns it.
+- `int peek()` Returns the element at the front of the queue.
+- `boolean empty()` Returns `true` if the queue is empty, `false` otherwise.
 
-This continues until none of the queue students want to take the top sandwich and are thus unable to eat.
+**Notes:**
 
-You are given two integer arrays `students` and `sandwiches` where `sandwiches[i]` is the type of the `ith` sandwich in the stack (`i = 0` is the top of the stack) and `students[j]` is the preference of the `jth` student in the initial queue (`j = 0` is the front of the queue). Return the **number of students that are unable to eat**.
+- You must use **only** standard operations of a stack, which means only `push to top`, `peek/pop from top`, `size`, and `is empty` operations are valid.
+- Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
 
 ## Examples
 
@@ -23,79 +26,68 @@ You are given two integer arrays `students` and `sandwiches` where `sandwiches[i
 
 **Input:**
 ```
-students = [1,1,0,0]
-sandwiches = [0,1,0,1]
+["MyQueue", "push", "push", "peek", "pop", "empty"]
+[[], [1], [2], [], [], []]
 ```
 
 **Output:**
 ```
-0
+[null, null, null, 1, 1, false]
 ```
 
 **Explanation:**
 ```
-- Front student leaves the top sandwich and returns to the end of the line making students = [1,0,0,1].
-- Front student leaves the top sandwich and returns to the end of the line making students = [0,0,1,1].
-- Front student takes the top sandwich and leaves the line making students = [0,1,1] and sandwiches = [1,0,1].
-- Front student leaves the top sandwich and returns to the end of the line making students = [1,1,0].
-- Front student takes the top sandwich and leaves the line making students = [1,0] and sandwiches = [0,1].
-- Front student leaves the top sandwich and returns to the end of the line making students = [0,1].
-- Front student takes the top sandwich and leaves the line making students = [1] and sandwiches = [1].
-- Front student takes the top sandwich and leaves the line making students = [] and sandwiches = [].
-Hence all students are able to eat.
-```
-
-### Example 2:
-
-**Input:**
-```
-students = [1,1,1,0,0,1]
-sandwiches = [1,0,0,0,1,1]
-```
-
-**Output:**
-```
-3
+MyQueue myQueue = new MyQueue();
+myQueue.push(1); // queue is: [1]
+myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
+myQueue.peek();  // return 1
+myQueue.pop();   // return 1, queue is [2]
+myQueue.empty(); // return false
 ```
 
 ## Constraints
 
-- `1 <= students.length, sandwiches.length <= 100`
-- `students.length == sandwiches.length`
-- `students[i]` is `0` or `1`.
-- `sandwiches[i]` is `0` or `1`.
+- `1 <= x <= 9`
+- At most `100` calls will be made to `push`, `pop`, `peek`, and `empty`.
+- All the calls to `pop` and `peek` are valid.
+
+## Follow-up
+
+Can you implement the queue such that each operation is **amortized** `O(1)` time complexity? In other words, performing `n` operations will take overall `O(n)` time even if one of those operations may take longer.
 
 ## Topics
 
-- Array
 - Stack
+- Design
 - Queue
-- Simulation
-- Counting
 
 ## Similar Problems
 
-- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) - Easy
 - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) - Easy
+- [155. Min Stack](https://leetcode.com/problems/min-stack/) - Medium
 - [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) - Medium
-- [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) - Easy
-- [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) - Easy
+- [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) - Medium
+- [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) - Easy
 
 ## Related Topics Problems
 
-**Queue Simulation:**
-- [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) - Medium
+**Design Problems:**
+- [146. LRU Cache](https://leetcode.com/problems/lru-cache/) - Medium
+- [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) - Medium
+- [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) - Medium
+- [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) - Medium
+- [705. Design HashSet](https://leetcode.com/problems/design-hashset/) - Easy
+- [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) - Easy
+
+**Stack-Based Data Structures:**
+- [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Medium
+- [284. Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) - Medium
+- [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) - Medium
+
+**Queue Problems:**
+- [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) - Easy
+- [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) - Easy
 - [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/) - Medium
-- [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) - Medium
-
-**Counting Techniques:**
-- [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) - Easy
-- [1941. Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) - Easy
-
-**Stack/Queue Problems:**
-- [682. Baseball Game](https://leetcode.com/problems/baseball-game/) - Easy
-- [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) - Medium
-- [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) - Easy
 
 ---
 
