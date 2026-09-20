@@ -6,7 +6,7 @@ class Solution {
         {
             sum += i;
         }
-        int expectedsum = n*(n+1)/2;
-        return expectedsum-sum;
+        int expected = n*(n+1)/2;
+        return expected-sum;
     }
 }
