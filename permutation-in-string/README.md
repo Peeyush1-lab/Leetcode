@@ -1,6 +1,6 @@
 # Permutation in String
-- **LeetCode:** https://leetcode.com/problems/permutation-in-string/submissions/2196135680/
+- **LeetCode:** https://leetcode.com/problems/permutation-in-string/
 - **Language:** java
-- **Submission ID:** 2196136458
+- **Submission ID:** 2196141447
 - **Status:** Accepted
 Solution is stored in this folder.
